@@ -89,7 +89,7 @@
 
    Clone this repository:
 
-   git clone https://github.com/yourusername/breadboard-power-supply-pcb.git
+   git clone https://github.com/YUKESH0620/breadboard-power-supply-pcb.git
 
 
    Open the .kicad_pro project file.
