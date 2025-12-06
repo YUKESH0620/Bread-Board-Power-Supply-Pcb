@@ -23,6 +23,9 @@
 
    This power supply module also solves a practical need: having a stable, easy-to-use power source for my breadboard experiments.
 
+
+   
+
 **⚙️ Key Features**
 
    1)Dual regulated outputs: 5V & 3.3V
@@ -38,6 +41,9 @@
    6)Compact PCB size suitable for breadboard placement
 
    7)Clean layout optimized for beginners and prototyping
+
+
+   
 
 **📚 What I Learned (First PCB Experience)**
 
@@ -59,6 +65,9 @@
 
    This project gave me confidence and a strong foundation to continue designing more advanced hardware.
 
+
+   
+
 **📸 Project Images**
 
 1) Schematic View
@@ -68,6 +77,9 @@
 3) 3D Views
    <img width="1724" height="992" alt="Screenshot 2025-12-05 214451" src="https://github.com/user-attachments/assets/03b80063-4ac9-44ca-b6a6-45afb653d1ff" />
    <img width="1919" height="1022" alt="Screenshot 2025-12-05 214550" src="https://github.com/user-attachments/assets/6c10d079-2bc6-4847-8b6c-ab1af81b64a5" />
+
+
+   
 
 
 
@@ -84,6 +96,9 @@
 
    View or modify the schematic, PCB layout, or 3D model.
 
+
+   
+
 **🚀 Future Improvements**
 
   Add USB-C input
@@ -95,6 +110,9 @@
   Improve routing for higher efficiency
 
   Create manufactured PCB and test output stability
+
+
+  
 
 **🙌 Acknowledgement**
 
