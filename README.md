@@ -25,7 +25,7 @@
 
 **⚙️ Key Features**
 
-   1) Dual regulated outputs: 5V & 3.3V
+   1)Dual regulated outputs: 5V & 3.3V
 
    2)Based on: 7805 + LM317 voltage regulators
 
