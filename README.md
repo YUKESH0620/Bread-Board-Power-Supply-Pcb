@@ -1,122 +1,82 @@
-# Bread-Board-Power-Supply-Pcb
-📘 **Breadboard Power Supply PCB – First PCB Project (KiCad 9)**
+# Bread Board Power Supply (KiCad 9)
 
-  This repository contains the design files for my first-ever PCB project: a Breadboard Power Supply Module created using KiCad 9.
-  This project marks my transition from Arduino-based prototyping to actual hardware design as I continue building my embedded systems engineering path.
+Compact breadboard-compatible power supply PCB designed in KiCad 9 for quick prototyping on standard solderless breadboards.
 
-🌟 **Project Overview**
+## Status
+- KiCad version: 9.x
+- Prototype status: [PLACEHOLDER — e.g., Prototype built and tested]
+- Files included: schematics, PCB layout, Gerbers, BOM, documentation
 
-  The Breadboard Power Supply provides regulated 5V and 3.3V outputs in a compact, breadboard-friendly layout.
-  It is designed to power small embedded projects reliably and serve as a practical learning platform for understanding the complete PCB workflow.
+## Preview
+Insert high-resolution build or PCB render images in the repository and update the paths below:
 
-**🔍 Motivation**
+![PCB top view](/assets/pcb-top.png)
 
-   After completing introductory Arduino projects like the Blinking LED and Obstacle Detection System, I wanted to move beyond simple prototyping and learn how hardware is really built.
+## Key features
+- Breadboard-compatible footprint
+- [PLACEHOLDER] Output voltage: e.g., 5 V (replace with actual)
+- [PLACEHOLDER] Adjustable or additional rails: e.g., 3.3 V (replace with actual)
+- Short-circuit / thermal protection: [PLACEHOLDER]
+- Compact form factor suitable for prototyping
 
-   This project helped me:
+## Specifications (fill exact values)
+- Input voltage: [PLACEHOLDER — e.g., 7–12 V DC]
+- Output voltage(s): [PLACEHOLDER — e.g., 5 V, 3.3 V]
+- Maximum output current: [PLACEHOLDER — e.g., up to 1 A]
+- Board dimensions: [PLACEHOLDER]
+- Connector types: [PLACEHOLDER]
 
-   Understand fundamental PCB concepts
+## Repository layout
+- Bread_Board_Power_Supply001.kicad_pro  — KiCad project file
+- Bread_Board_Power_Supply001.kicad_sch  — Schematic
+- Bread_Board_Power_Supply001.kicad_pcb  — PCB layout
+- Gerber_Files/                          — Gerber files for fabrication
+- LICENSE                                — Project license (see LICENSE file)
+- README.md                              — This file
 
-   Practice design workflows
+## Getting started
+1. Install KiCad 9.x and open Bread_Board_Power_Supply001.kicad_pro.
+2. Review the schematic and footprints; verify design rules.
+3. Generate fabrication files: File → Plot (Gerber) and drill files.
+4. Inspect BOM located in the repository (add path when available).
 
-   Take a real step into embedded hardware development
+## Manufacturing & assembly
+- Gerbers: check Gerber_Files/ before sending to your PCB house.
+- BOM: add part numbers, package types and vendor links in the BOM folder.
+- Assembly notes:
+  - Follow polarity markings for electrolytic capacitors, diodes, and regulators.
+  - Hand-solder or use reflow for SMDs depending on your workflow.
 
-   This power supply module also solves a practical need: having a stable, easy-to-use power source for my breadboard experiments.
+## Testing procedure
+1. Visual inspection for solder bridges and component orientation.
+2. Continuity test between power rails and ground.
+3. Power the board with a current-limited supply and verify output voltages with a multimeter before connecting loads.
+4. Verify thermal behavior under expected load.
+5. Record test results in docs/test-report.md.
 
+## Safety & disclaimer
+- Use appropriate current limiting when powering a newly assembled board.
+- Confirm correct polarity of the input connector.
+- This design is provided as-is. The author is not responsible for damage from improper use. Verify suitability for your application.
 
-   
+## Contributing
+Contributions are welcome. Please:
+1. Fork the repository.
+2. Create a descriptive feature branch.
+3. Submit a pull request with a detailed explanation of changes and test results.
 
-**⚙️ Key Features**
+When contributing PCB changes, include updated KiCad files, BOM updates, and test logs.
 
-   1)Dual regulated outputs: 5V & 3.3V
+## License
+See the LICENSE file in this repository for license details.
 
-   2)Based on: 7805 + LM317 voltage regulators
+## Contact
+Maintainer: YUKESH0620
+GitHub: https://github.com/YUKESH0620
 
-   3)Barrel jack input with on/off switch
+## Changelog
+- v0.1 — Initial KiCad 9 design and repository (update as needed)
 
-   4)LED indicators for power status
+---
 
-   5)Screw terminals + header pins for flexible output
-
-   6)Compact PCB size suitable for breadboard placement
-
-   7)Clean layout optimized for beginners and prototyping
-
-
-   
-
-**📚 What I Learned (First PCB Experience)**
-
-   Designing this board helped me understand the complete PCB creation process, including:
-
-   Schematic design
-
-   Footprint selection & mapping
-
-   PCB layout and routing
-
-   Design Rule Checks (DRC)
-
-   Trace width and clearance basics
-
-   3D board visualization
-
-   Generating Gerber files for fabrication
-
-   This project gave me confidence and a strong foundation to continue designing more advanced hardware.
-
-
-   
-
-**📸 Project Images**
-
-1) Schematic View
-   <img width="1115" height="763" alt="Screenshot 2025-12-05 214350" src="https://github.com/user-attachments/assets/9b810b0b-0a73-448b-bbf4-77e013bd9bee" />
-2) PCB Layout
-   <img width="1919" height="1018" alt="Screenshot 2025-12-06 191623" src="https://github.com/user-attachments/assets/77db8555-ada0-4281-a42a-4f8f796c09d8" />
-3) 3D Views
-   <img width="1724" height="992" alt="Screenshot 2025-12-05 214451" src="https://github.com/user-attachments/assets/03b80063-4ac9-44ca-b6a6-45afb653d1ff" />
-   <img width="1919" height="1022" alt="Screenshot 2025-12-05 214550" src="https://github.com/user-attachments/assets/6c10d079-2bc6-4847-8b6c-ab1af81b64a5" />
-
-
-   
-
-
-
-**🛠️ How to Open the Project**
-
-   Install KiCad 9 (or any compatible version).
-
-   Clone this repository:
-
-   git clone https://github.com/YUKESH0620/breadboard-power-supply-pcb.git
-
-
-   Open the .kicad_pro project file.
-
-   View or modify the schematic, PCB layout, or 3D model.
-
-
-   
-
-**🚀 Future Improvements**
-
-  Add USB-C input
-
-  Add onboard fuse protection
-
-  Add voltage selection switch (5V/3.3V toggle)
-
-  Improve routing for higher efficiency
-
-  Create manufactured PCB and test output stability
-
-
-  
-
-**🙌 Acknowledgement**
-
-  This project represents an important step in my journey toward becoming an Embedded Systems Engineer.
-  I’m continuously learning, improving, and building more hardware projects.
-
-  Feedback, suggestions, and contributions are welcome!
+Note: Many values above are placeholders. Replace bracketed placeholders with verified specifications, images, BOM links, and test reports before manufacture.
