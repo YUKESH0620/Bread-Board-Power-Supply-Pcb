@@ -3,28 +3,32 @@
 Compact breadboard-compatible power supply PCB designed in KiCad 9 for quick prototyping on standard solderless breadboards.
 
 ## Status
-- KiCad version: 9.x
-- Prototype status: [PLACEHOLDER — e.g., Prototype built and tested]
+- KiCad version: 9.0
+- Prototype status: Prototype built
 - Files included: schematics, PCB layout, Gerbers, BOM, documentation
 
 ## Preview
-Insert high-resolution build or PCB render images in the repository and update the paths below:
+<img width="1115" height="763" alt="Screenshot 2025-12-05 214350" src="https://github.com/user-attachments/assets/78462620-73d9-4221-b1df-619d560feddb" />
+<img width="1919" height="1018" alt="Screenshot 2025-12-06 191623" src="https://github.com/user-attachments/assets/7f6bd5ac-44ce-4671-9207-e68af765f398" />
+<img width="1919" height="1022" alt="Screenshot 2025-12-05 214550" src="https://github.com/user-attachments/assets/20ca5449-c806-4693-bfdc-73fa43ba50aa" />
+<img width="1919" height="1022" alt="Screenshot 2025-12-05 214550" src="https://github.com/user-attachments/assets/f961d7e3-572b-42d5-be14-7dcc5d456d0c" />
 
-![PCB top view](/assets/pcb-top.png)
+
+
 
 ## Key features
 - Breadboard-compatible footprint
-- [PLACEHOLDER] Output voltage: e.g., 5 V (replace with actual)
-- [PLACEHOLDER] Adjustable or additional rails: e.g., 3.3 V (replace with actual)
-- Short-circuit / thermal protection: [PLACEHOLDER]
+- 5V Output voltage
+- Adjustable or additional rails:3.3 V 
+- Short-circuit / thermal protection:
 - Compact form factor suitable for prototyping
 
-## Specifications (fill exact values)
-- Input voltage: [PLACEHOLDER — e.g., 7–12 V DC]
-- Output voltage(s): [PLACEHOLDER — e.g., 5 V, 3.3 V]
-- Maximum output current: [PLACEHOLDER — e.g., up to 1 A]
-- Board dimensions: [PLACEHOLDER]
-- Connector types: [PLACEHOLDER]
+## Specifications
+- Input voltage: 7–12 V DC
+- Output voltage(s): 5 V, 3.3 V
+- Maximum output current:up to 1 A
+- Board dimensions:
+- Connector types: 
 
 ## Repository layout
 - Bread_Board_Power_Supply001.kicad_pro  — KiCad project file
