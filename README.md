@@ -10,7 +10,7 @@ Compact breadboard-compatible power supply PCB designed in KiCad 9 for quick pro
 ## Preview
 <img width="1115" height="763" alt="Screenshot 2025-12-05 214350" src="https://github.com/user-attachments/assets/78462620-73d9-4221-b1df-619d560feddb" />
 <img width="1919" height="1018" alt="Screenshot 2025-12-06 191623" src="https://github.com/user-attachments/assets/7f6bd5ac-44ce-4671-9207-e68af765f398" />
-<img width="1919" height="1022" alt="Screenshot 2025-12-05 214550" src="https://github.com/user-attachments/assets/20ca5449-c806-4693-bfdc-73fa43ba50aa" />
+<img width="1724" height="992" alt="Screenshot 2025-12-05 214451" src="https://github.com/user-attachments/assets/a4909c31-fd7b-46f6-b303-f47505813859" />
 <img width="1919" height="1022" alt="Screenshot 2025-12-05 214550" src="https://github.com/user-attachments/assets/f961d7e3-572b-42d5-be14-7dcc5d456d0c" />
 
 
