@@ -27,8 +27,8 @@ Compact breadboard-compatible power supply PCB designed in KiCad 9 for quick pro
 - Input voltage: 7–12 V DC
 - Output voltage(s): 5 V, 3.3 V
 - Maximum output current:up to 1 A
-- Board dimensions:
-- Connector types: 
+- Board dimensions:51.65mm×32.25mm
+- Connector types: DC barrel Jack connector(Female)
 
 ## Repository layout
 - Bread_Board_Power_Supply001.kicad_pro  — KiCad project file
@@ -39,7 +39,7 @@ Compact breadboard-compatible power supply PCB designed in KiCad 9 for quick pro
 - README.md                              — This file
 
 ## Getting started
-1. Install KiCad 9.x and open Bread_Board_Power_Supply001.kicad_pro.
+1. Install KiCad 9.0.0 and open Bread_Board_Power_Supply001.kicad_pro.
 2. Review the schematic and footprints; verify design rules.
 3. Generate fabrication files: File → Plot (Gerber) and drill files.
 4. Inspect BOM located in the repository (add path when available).
@@ -83,4 +83,3 @@ GitHub: https://github.com/YUKESH0620
 
 ---
 
-Note: Many values above are placeholders. Replace bracketed placeholders with verified specifications, images, BOM links, and test reports before manufacture.
