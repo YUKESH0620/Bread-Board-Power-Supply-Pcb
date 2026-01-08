@@ -20,7 +20,7 @@ Compact breadboard-compatible power supply PCB designed in KiCad 9 for quick pro
 - Breadboard-compatible footprint
 - 5V Output voltage
 - Adjustable or additional rails:3.3 V 
-- Short-circuit / thermal protection:
+- Short-circuit / thermal protection
 - Compact form factor suitable for prototyping
 
 ## Specifications
@@ -42,7 +42,7 @@ Compact breadboard-compatible power supply PCB designed in KiCad 9 for quick pro
 1. Install KiCad 9.0.0 and open Bread_Board_Power_Supply001.kicad_pro.
 2. Review the schematic and footprints; verify design rules.
 3. Generate fabrication files: File → Plot (Gerber) and drill files.
-4. Inspect BOM located in the repository (add path when available).
+4. Inspect BOM located in the repository.
 
 ## Manufacturing & assembly
 - Gerbers: check Gerber_Files/ before sending to your PCB house.
